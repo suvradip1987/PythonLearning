@@ -6,6 +6,7 @@ class PermanentEmployee(Employee):
         super().__init__(first_name, last_name)
         self.empId=emp_id
 
+
     def say_hello(self):
         print("I am Permanent Employee")
 
@@ -17,4 +18,5 @@ emp1.print_emp_name()
 
 permEmp = PermanentEmployee("Hati", "Mondal", "smondal1")
 permEmp.print_emp_name()
+permEmp.say_hello()
 permEmp.say_hello()
